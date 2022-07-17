@@ -1,0 +1,23 @@
+.buttonsWrapper {
+    display: flex;
+    column-gap: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.button {
+    cursor: pointer;
+    padding: 10px 50px;
+    border-radius: 5px;
+    border: none;
+
+    background-color: rgb(118, 161, 147);
+    color: rgb(247, 242, 236);
+    transition: background-color 250ms linear,
+        transform 250ms linear;
+}
+
+.button:hover {
+    background-color: rgb(136, 191, 239);
+    transform: scale(1.1);
+}
